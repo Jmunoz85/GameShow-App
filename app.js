@@ -17,7 +17,7 @@ const startButton = document.querySelector('a.btn__reset');
 // -- meaning that it can take any given array of strings
 // (with no special characters) and return an array of characters
 
-startButton.addEventListener('click', () => {
+btn__reset.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
 
